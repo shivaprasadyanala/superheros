@@ -1,0 +1,33 @@
+//3 4 5 2 7 3
+fast = 3;
+slow = 3;
+
+nums[3] = 2;
+fast = nums[2]
+fast = 5
+slow = nums[3] = 2;
+
+nums[5] = 3;
+fast = nums[3] = 2;
+slow = nums[2] = 5;
+
+nums[2] = 5;
+fast = nums[5] = 3;
+slow = nums[5] = 3;
+
+fast = nums[0] = 3;
+
+while(fast!=slow){
+
+
+}
+
+3!=3 f
+
+return 3
+
+
+
+123273492779724
+1*2*3*4*5*6*7*8
+
