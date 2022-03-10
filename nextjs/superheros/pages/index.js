@@ -13,7 +13,7 @@ const index = ({ heros }) => {
         {/* <h1>hi</h1> */}
         {heros.map((hero) => (
 
-          <MDBCard MDBCard className='border border-2 my-2' style={{ maxWidth: '22rem' }}>
+          <MDBCard key={hero._id} MDBCard className='border border-2 my-2' style={{ maxWidth: '22rem' }}>
             <MDBCardBody>
               <MDBCardTitle>{hero.superHero}</MDBCardTitle>
               <MDBCardText>
